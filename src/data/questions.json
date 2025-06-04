@@ -1,7 +1,8 @@
 [
   {
     "question": "Bicycle ridership in a city is studied. Examination of several years of data revealed that 30% of the people who regularly ride bicycles in a given year do not regularly ride bicycles in the subsequent year. Additionally, 2% of the people who do not regularly ride bicycles in that year begin to ride bicycles regularly in the subsequent year. If 5,000 people ride bicycles and 100,000 people do not ride bicycles in a given year, then the following program calculates the number of cyclists in the subsequent year (cycling) and that of people who do not ride bicycles in the subsequent year (noncycling):",
-    "image": "/2024A-FE-B-1.png",
+    "image1": "/2024A-FE-B-1.png",
+    "image2": "",
     "options": [
         "a)", 
         "b)", 
@@ -14,17 +15,127 @@
   },
   {
     "question": "The function coupon receives the argument prod_id (a positive integer value) of product ID, and pur_prod (a positive integer value) of the number of purchased products by a customer. The function returns the number of coupons. For every purchase of three products of the product ID of which the last digit is three, the customer receives one coupon. Otherwise, they receive no coupon.",
-    "image": "/2024A-FE-B-2.png",
+    "image1": "/2024A-FE-B-2.png",
+    "image2": "",
     "options": [
         "a)", 
         "b)", 
         "c)", 
         "d)", 
         "e)", 
+        "f)", 
         "g)", 
-        "h)", 
-        "i)"
+        "h)",
+        "i"
     ],
-    "correctAnswer": 0
+    "correctAnswer": 6
+  },
+  {
+    "question": "The program determines the second-largest element of an integer-type array and outputs its value. For instance, the second largest element of the array {2, 6, 9, 1, 7, 5} is 7. Here, we assume that the array has two or more elements and that no duplicate elements are present in the array.",
+    "image1": "/2024A-FE-B-3.png",
+    "image2": "",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)", 
+        "f)", 
+        "g)", 
+        "h)"
+    ],
+    "correctAnswer": 5
+  },
+  {
+    "question": "The procedure primeFactors outputs the prime factors for the input values as its argument. The first few prime numbers are 2, 3, 5, 7, 11, and 13. For instance, if the input integer is 12, the output is “2x2x3”. If the input integer is 78, the output is “2x3x13”. The input integer must be greater than 1.",
+    "image1": "/2024A-FE-B-4.png",
+    "image2": "",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "",
+    "image1": "/2024A-FE-B-5.png",
+    "image2": "",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "",
+    "image1": "/2024A-FE-B-6-1.png",
+    "image2": "/2024A-FE-B-6-2.png",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)", 
+        "f)", 
+        "g)", 
+        "h)"
+    ],
+    "correctAnswer": 7
+  },
+  {
+    "question": "Given two strings, str1 and str2, the task is to determine the length of the longest common subsequence (LCS), that is, the length of the longest subsequence present in both strings. For instance, if str1 is “ABXDZ” and str2 is “ABCD”, the LCS between str1 and str2 will be “ABD” and the length of the LCS will be 3. The function lcs(string: str1, string: str2, integer: m, integer: n) takes two strings str1 and str2 and two integers m and n as arguments. str1 and str2 are the strings on which the length of the LCS is calculated. m and n are indexes addressing the target characters in str1 and str2, respectively. On the first call, m and n represent the lengths of str1 and str2, respectively. The function returns an integer containing the value of the length of the LCS of str1 and str2. For instance, the function may be called as lcs('ABXDZ', 'ABCD', 5, 4). Another function max(integer: a, integer: b) is also used. The function takes two integers a and b as arguments. It compares these two integers and returns the integer value of whichever is the maximum between a and b.",
+    "image1": "/2024A-FE-B-7-1.png",
+    "image2": "/2024A-FE-B-7-2.png",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)", 
+        "f)"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "This program performs operations on a priority queue. A priority queue is a queue where the handled elements have a priority assigned to them, and the elements are extracted with the order of the highest priority first. The class PrioQueue represents a priority queue. The Figure shows an explanation of the class PrioQueue. Here, the priority is the integer value 1, 2, or 3, and the smaller the value the higher the priority. When the procedure prioSched is called, the order of the output is ___",
+    "image1": "/2024A-FE-B-8-1.png",
+    "image2": "/2024A-FE-B-8-2.png",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The procedure traverse traces through a vertex of the graph shown in the Figure, and outputs all vertex numbers in the graph. The vertex number of the graph is specified with the argument k. The global variable n indicates the number of vertices in the graph. The global array graph represents the graph in the figure. Each element graph[i][j] is equal to 1 if an edge exists between vertices i and j, and it is equal to 0 otherwise. The global array visited stores boolean values, where visited[i] indicates whether vertex i of the graph has been visited during the procedure. When the procedure is called as traverse(1), the output is in the order ___",
+    "image1": "/2024A-FE-B-9-1.png",
+    "image2": "",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "The procedure addNode adds a node to a singly-linked list at the position specified by the argument pos. The argument pos is a positive integer that is equal to or less than the (number of nodes + 1) in the list. The position at the top of the list is 1. The class ListNode represents a node in a singly-linked list. The table summarizes an explanation of the member variables of the class ListNode. ListNode-type variables store references to instances of the class ListNode. A reference to the first node in the list is pre-stored in the global variable listHead.",
+    "image1": "/2024A-FE-B-10-1.png",
+    "image2": "",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)", 
+        "f)"
+    ],
+    "correctAnswer": 1
   }
 ]

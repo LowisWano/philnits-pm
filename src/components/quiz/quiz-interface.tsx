@@ -12,7 +12,8 @@ import questionData from "@/data/questions.json"
 
 interface Question {
   question: string;
-  image?: string;
+  image1?: string;
+  image2?: string;
   options: string[];
   correctAnswer: number;
 }
@@ -85,7 +86,6 @@ export default function QuizInterface() {
   const progress = ((currentQuestion + 1) / questions.length) * 100
   const answeredQuestions = Object.keys(answers).length
 
-  console.log(questions[currentQuestion].image)
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 p-4">
       <div className="mx-auto max-w-4xl">
@@ -106,8 +106,7 @@ export default function QuizInterface() {
                 <div className="flex items-center gap-2">
                     <Button
                       onClick={() => setShowSubmitConfirm(true)}
-                      variant="outline"
-                      className="py-3 mx-2">
+                      className="py-3 mx-2 bg-blue-600 hover:bg-blue-700 text-white font-semibold">
                       Submit
                     </Button>
                   <Clock className={`h-5 w-5 ${timeLeft < 600 ? "text-red-500" : "text-blue-600"}`} />
@@ -141,21 +140,36 @@ export default function QuizInterface() {
             <CardTitle className="text-xl leading-relaxed">{questions[currentQuestion].question}</CardTitle>
           </CardHeader>
           <CardContent>
-            {questions[currentQuestion].image && (
-                <div className="mb-6 relative w-full aspect-[4/3]">
+            {
+              questions[currentQuestion].image1 && (
+                <div className="relative w-full aspect-[4/3]">
                   <Image
-                    src={questions[currentQuestion].image}
+                    src={questions[currentQuestion].image1}
                     alt="Question diagram"
                     fill
                     className="object-contain"
                     priority
                   />
                 </div>
-              )}
+              )
+            }
+            {
+              questions[currentQuestion].image2 && (
+                <div className="relative w-full aspect-[4/3]">
+                  <Image
+                    src={questions[currentQuestion].image2}
+                    alt="Question diagram"
+                    fill
+                    className="object-contain"
+                    priority
+                  />
+                </div>
+              )
+            }
             <RadioGroup
               value={answers[currentQuestion]?.toString() || ""}
               onValueChange={handleAnswerChange}
-              className=""
+              className="mt-6"
             >
               {questions[currentQuestion].options.map((option, index) => (
                 <div
