@@ -1,0 +1,30 @@
+[
+  {
+    "question": "Bicycle ridership in a city is studied. Examination of several years of data revealed that 30% of the people who regularly ride bicycles in a given year do not regularly ride bicycles in the subsequent year. Additionally, 2% of the people who do not regularly ride bicycles in that year begin to ride bicycles regularly in the subsequent year. If 5,000 people ride bicycles and 100,000 people do not ride bicycles in a given year, then the following program calculates the number of cyclists in the subsequent year (cycling) and that of people who do not ride bicycles in the subsequent year (noncycling):",
+    "image": "/2024A-FE-B-1.png",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)", 
+        "f)"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "The function coupon receives the argument prod_id (a positive integer value) of product ID, and pur_prod (a positive integer value) of the number of purchased products by a customer. The function returns the number of coupons. For every purchase of three products of the product ID of which the last digit is three, the customer receives one coupon. Otherwise, they receive no coupon.",
+    "image": "/2024A-FE-B-2.png",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)", 
+        "g)", 
+        "h)", 
+        "i)"
+    ],
+    "correctAnswer": 0
+  }
+]
