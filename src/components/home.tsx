@@ -44,9 +44,7 @@ export default function Home() {
                   This comprehensive mock exam is designed to simulate the afternoon (PM) section of the PhilNITS exam. You are given 100 minutes and 20 questions (all multiple choice) to cover Technology, Strategy and Management.
                 </p>
                 <p className="text-slate-700 leading-relaxed">
-                  The questions are carefully crafted to test your understanding of key concepts, practical
-                  applications, and problem-solving abilities. Each question is designed to challenge your knowledge
-                  while preparing you for success.
+                  This quiz contains randomly selected questions from a range of topics covered in previous years&apos; exams.
                 </p>
                 <div className="bg-blue-50 p-4 rounded-lg border-l-4 border-blue-400">
                   <p className="text-blue-800 font-medium">
@@ -91,9 +89,9 @@ export default function Home() {
                 {/* Additional Info */}
                 <div className="space-y-2 text-sm text-slate-600">
                   <p>• Multiple choice format</p>
-                  <p>• No negative marking</p>
-                  <p>• Can review answers before submit</p>
-                  <p>• Results available immediately</p>
+                  <p>• Questions include images</p>
+                  <p>• See results immediately</p>
+                  <p>• Review answers</p>
                 </div>
 
                 {/* Start Button */}

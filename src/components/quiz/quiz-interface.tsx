@@ -391,18 +391,18 @@ export default function QuizInterface() {
             <RadioGroup
               value={answers[currentQuestion]?.toString() || ""}
               onValueChange={handleAnswerChange}
-              className="mt-6"
-            >
+              className="mt-6">
               {questions[currentQuestion].options.map((option, index) => (
-                <div
+                <Label
                   key={index}
-                  className="flex items-center space-x-3 h-12 p-3 rounded-lg hover:bg-slate-50 transition-colors border-1"
+                  htmlFor={`option-${index}`}
+                  className="flex items-center space-x-3 h-12 p-3 rounded-lg hover:bg-slate-50 transition-colors border-1 cursor-pointer"
                 >
                   <RadioGroupItem value={index.toString()} id={`option-${index}`} />
-                  <Label htmlFor={`option-${index}`} className="flex-1 cursor-pointer text-base leading-relaxed">
+                  <span className="flex-1 text-base leading-relaxed">
                     {option}
-                  </Label>
-                </div>
+                  </span>
+                </Label>
               ))}
             </RadioGroup>
             {/* Navigation Buttons */}
