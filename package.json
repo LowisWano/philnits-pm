@@ -5,8 +5,13 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start -p 45180",
+    "lint": "next lint",
+    "deploy": "npx pm2 start npm --name 'philnits-pm' -- start",
+    "status": "npx pm2 status",
+    "startup": "npx pm2 startup",
+    "save": "npx pm2 save",
+    "restart": "next build && npx pm2 restart philnits-pm"
   },
   "dependencies": {
     "@radix-ui/react-label": "^2.1.7",
@@ -17,6 +22,7 @@
     "clsx": "^2.1.1",
     "lucide-react": "^0.512.0",
     "next": "15.3.3",
+    "pm2": "^6.0.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^3.3.0"
