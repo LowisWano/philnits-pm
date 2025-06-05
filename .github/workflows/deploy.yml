@@ -23,6 +23,7 @@ jobs:
           port: ${{ secrets.SSH_PORT }}
           source: "."
           target: "~/philnits-pm.dcism.org"
+          strip_components: 1
           overwrite: true
           exclude: ".git,.github,node_modules"
 
