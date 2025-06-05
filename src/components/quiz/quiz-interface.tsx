@@ -351,7 +351,7 @@ export default function QuizInterface() {
         <Alert className="mb-6 p-6">
           <AlertDescription>
             <strong>Instructions:</strong> Select the best answer for each question. You can navigate between questions
-            using the Back and Next buttons. Click &quot;Submit Early&quot; to finish before time runs out, or the quiz will
+            using the &quot;Back&quot; and &quot;Next&quot; buttons. Click &quot;Submit&quot; to finish before time runs out, or the quiz will
             auto-submit when time expires.
           </AlertDescription>
         </Alert>
@@ -447,7 +447,7 @@ export default function QuizInterface() {
                   <Button variant="outline" onClick={() => setShowSubmitConfirm(false)}>
                     Cancel
                   </Button>
-                  <Button onClick={handleSubmit}>Submit Quiz</Button>
+                  <Button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold" onClick={handleSubmit}>Submit Quiz</Button>
                 </div>
               </CardContent>
             </Card>

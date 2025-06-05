@@ -137,5 +137,81 @@
         "f)"
     ],
     "correctAnswer": 1
+  },
+  {
+    "question": "The procedure sort sorts an integer array containing certain number (≥ 2) of elements in ascending order",
+    "image1": "/2024A-FE-B-11.png",
+    "image2": "",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)", 
+        "f)"
+    ],
+    "correctAnswer": 5
+  },
+  {
+    "question": "",
+    "image1": "/2024A-FE-B-12-1.png",
+    "image2": "/2024A-FE-B-12-2.png",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)", 
+        "f)",
+        "g)",
+        "h)"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "Hashing in data structures is a fundamental concept used for efficient data retrieval and storage mechanisms. A program storing a key-data pairs in an array by transforming keys into array indexes using a hash function exists. A collision occurs when two keys hash to the same index in the array representing the hash table. A common method handling collisions, the probing mechanism (checking for an available element), is used in the function. The procedure insertData inserts a pair of key and data, if the element in the array is {undefined}. Assumptions are made that no data with the same key is stored, and that at least one element in the array hashTable is {undefined} when the procedure insertData is called. The function hashFunction takes a key as input and returns a hash value",
+    "image1": "/2024A-FE-B-13-1.png",
+    "image2": "/2024A-FE-B-13-2.png",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)", 
+        "f)",
+        "g)",
+        "h)"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "The function summarize receives the array sortedData sorted in ascending order and returns five values that characterize the array. The array sortedData must have at least one element. The summarize calls the findRank with two arguments, sortedData and q. When the function summarize is called as summarize({0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1}), the return value is ___",
+    "image1": "/2024A-FE-B-14.png",
+    "image2": "",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)", 
+        "f)",
+        "g)",
+        "h)"
+    ],
+    "correctAnswer": 4
+  },
+  {
+    "question": "Suppose the weather in a city, from day to day, follows a Markov process. This implies the next day's weather depends only on today's weather and not on those of the previous days. If it rains today in the city, a probability 0.3 exists that it will rain again tomorrow. Similarly, the probability that tomorrow's weather will be sunny is 0.4 and that it will be cloudy is 0.3. If today's weather is sunny, the next day will be rainy, sunny, or cloudy with probabilities 0.2, 0.7, and 0.1, respectively. Additionally, if today's weather is cloudy, the next day will be rainy, sunny, or cloudy with probabilities 0.25, 0.5, and 0.25, respectively. Let us say that the weather is in state 1 if it is rainy, in state 2 if it is sunny, and in state 3 if it is cloudy. Then, the above is a three-state Markov chain whose transition probabilities are given by the following:",
+    "image1": "/2024A-FE-B-15-1.png",
+    "image2": "/2024A-FE-B-15-2.png",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)", 
+        "f)"
+    ],
+    "correctAnswer": 0
   }
 ]
