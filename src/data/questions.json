@@ -213,5 +213,78 @@
         "f)"
     ],
     "correctAnswer": 0
+  },
+  {
+    "question": "Function hammingDistance receives two strings as argument and returns Hamming distance as the return value. Hamming distance is a metric used to measure the difference between two strings of equal length. It counts the number of positions at which the corresponding characters are different. For instance, the return value is 2 when the function hammingDistance('101010', '111000') is called, because positions 2 and 5 have different characters. It can also be extended to strings of different lengths by considering the unmatched characters as differences. For instance, the return value is 5 when the function hammingDistance('101010', '111000111') is called, because of two differences in first six characters and addition of three extra unmatched characters.",
+    "image1": "/2024A-FE-B-16-1.png",
+    "image2": "/2024A-FE-B-16-2.png",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)", 
+        "f)",
+        "g)",
+        "h)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "",
+    "image1": "/2024A-FE-B-17-1.png",
+    "image2": "/2024A-FE-B-17-2.png",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)", 
+        "f)"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "Company B runs several web services. Mr. Y is a software engineer in the company. He was directed to develop a feature that prevents web service users from setting weak passwords. Mr. Y investigated and found that “Password Entropy” is the important factor for the password strength. Password entropy measures the strength of a password based on the difficulty of cracking the password through guessing or a brute-force attack. The entropy of a password is typically based on the type of characters used—lowercase letters, uppercase letters, numerical digits, or special characters—and the length of the password or total number of characters.",
+    "image1": "/2024A-FE-B-18-1.png",
+    "image2": "/2024A-FE-B-18-2.png",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "",
+    "image1": "/2024A-FE-B-19.png",
+    "image2": "",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)",
+        "f)",
+        "g)",
+        "h)"
+    ],
+    "correctAnswer": 3
+  },
+  {
+    "question": "Company Y, a trading company, is developing an e-commerce web application for selling products to customers directly. The web server hosting the web application is installed on- premise and the web application is to be developed in-house. The communications to the web server are allowed only with HTTPS and the server certificate is already signed by the third party and installed on the web server. Company Y has an IT department comprising three teams—Developer, Security, and Tech Support—and the requirements for the web application are specified as follows (excerpt):",
+    "image1": "/2024A-FE-B-20.png",
+    "image2": "",
+    "options": [
+        "a)", 
+        "b)", 
+        "c)", 
+        "d)", 
+        "e)",
+        "f)"
+    ],
+    "correctAnswer": 2
   }
 ]
