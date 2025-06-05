@@ -25,7 +25,6 @@ jobs:
           target: "~/philnits-pm.dcism.org"
           strip_components: 1
           overwrite: true
-          exclude: ".git,.github,node_modules"
 
       - name: Install and restart app via SSH
         uses: appleboy/ssh-action@v1.2.0
